@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
 }
 
 fun Application.module() {
+    saveQRCode("abduletourasy23@gmail.com", "my_email.png")
     configureSerialization()
     configureRouting()
 }
